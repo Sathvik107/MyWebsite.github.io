@@ -1,0 +1,29 @@
+.logo{
+    margin: 5px;
+    margin-left: 1%;
+    margin-top: 2%;
+    float: left;
+    overflow: auto;
+}
+.bc{
+    background-size: 1050px 1000px;
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: aqua;
+}
+.head{
+    position: relative;
+    text-align: left;
+    margin-left: 40%;
+    float: left;
+    margin-top: 2%;
+    margin-right: 80%; 
+}
+.login{
+    position: relative;
+    text-align: left;
+    float: left;
+    margin-top: 2%;
+    margin-right: 80%;
+}
