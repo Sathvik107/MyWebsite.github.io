@@ -50,7 +50,7 @@ function create_account(){
     var p=document.getElementById("p1").value;  
     var cp=document.getElementById("p2").value;  
             var letters = /^[A-Za-z]+$/;  
-            var email_val = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z]\.{2,4})+$/;   
+            var email_val = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z]{2,4})+$/;   
     if(n==''||e==''||p==''||cp==''){  
     alert("Enter your complete details carefully");  
     }  
