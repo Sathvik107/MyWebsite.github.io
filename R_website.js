@@ -10,12 +10,6 @@ function blu(){
     var pwd2=document.getElementById("pwd");
     pwd2.style.backgroundColor="white";
 }
-function mou(){
-    var us=document.getElementById("user");
-    us.style.backgroundColor="green";   
-    var pwd2=document.getElementById("pwd");
-    pwd2.style.backgroundColor="green";
-}
 function ChangeColor()
 {
   document.getElementById("color").style.backgroundColor = "yellow";
